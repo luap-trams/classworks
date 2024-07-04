@@ -1,3 +1,20 @@
+/* On each of the sections, using css pseudoclasses and gradient backgrounds apply the following:
+
+1. the first section have the Nigeria flag
+2. section section is japan flag
+3. third section is gambia
+4. fourth is gabon
+5. fifth is france
+6. sixth is belgium
+7. seven is germany
+7. Ghana
+8. China
+
+Be sure you are using the appropriate colors for the countries.
+
+Use pseudoclasses selector only. */
+
+
 *{
     margin: 0;
 }
@@ -8,3 +25,24 @@ section{
     margin: 25px auto;
     border: 10px solid blue;
 }
+
+section:nth-of-type(1){
+    background-image: linear-gradient(90deg, green 33%, white 33%, white 67%, green 67%);
+}
+section:nth-of-type(2){
+    background-image: radial-gradient(circle, red 20%, white 15%)
+}
+section:nth-of-type(3){
+    background-image: linear-gradient(180deg, red 33%, white 33%, white 40%, blue 40%, blue 67%, white 67%, white 74%, green 74%);
+}
+section:nth-of-type(4){
+    background-image: linear-gradient(180deg, green 33%, yellow 33%, yellow 67%, blue 67%);
+}
+
+section:nth-of-type(5){
+    background-image: linear-gradient(90deg, blue 33%, white 33%, white 67%, red 67%);
+}
+
+
+
+

@@ -9,6 +9,8 @@ On each of the sections, using css pseudoclasses and gradient backgrounds apply 
 5. fifth is france
 6. sixth is belgium
 7. seven is germany
+7. Ghana
+8. China
 
 Be sure you are using the appropriate colors for the countries.
 
