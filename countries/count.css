@@ -7,8 +7,8 @@
 5. fifth is france
 6. sixth is belgium
 7. seven is germany
-7. Ghana
-8. China
+8. Ghana
+9. China
 
 Be sure you are using the appropriate colors for the countries.
 
@@ -43,6 +43,16 @@ section:nth-of-type(5){
     background-image: linear-gradient(90deg, blue 33%, white 33%, white 67%, red 67%);
 }
 
+section:nth-of-type(6){
+    background-image: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, red 67%);
+}
 
+section:nth-of-type(7){
+    background-image:
+    linear-gradient(90deg, red 33%, yellow 33%, yellow 67%, green 67%);
+    /* background-position: center; */
+}
 
-
+section:nth-of-type(8){
+    background-image: linear-gradient(90deg, black 33%, red 33%, red 67%, gold 67%);
+}
