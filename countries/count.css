@@ -59,3 +59,16 @@ section:nth-of-type(8){
     background-repeat: no-repeat;
     background-size: 100px, 100%;
 }
+
+section:nth-of-type(9)
+{
+    background-image:
+    url(./yellow-star.png),
+    url(./yellow-star.png),
+    url(./yellow-star.png),
+    url(./yellow-star.png),
+    url(./yellow-star.png), radial-gradient(red,red);
+    background-repeat: no-repeat;
+    background-size: 100px, 20px, 60px, 60px, 60px, 100%;
+    background-position: 400px 320px, 240px 360px, 300px 180, 270px 280px, 0;
+}
