@@ -1,0 +1,118 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+} */
+
+
+/* body{
+  background-color: navy
+}
+.main {
+  margin-top: 170px;
+  margin-left: 600px;
+  background-color: white;
+}
+
+h1 {
+  display: flex;
+  color: rgb(130, 183, 229); 
+  text-align: center;
+ 
+ 
+} 
+
+.card {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  transition: transform 2s;
+  background-position: right;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
+.card:hover {
+  transform: translateY(10px);
+} */
+
+/* General styles */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  background-color: rgb(182, 215, 133);
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 400px; /* Add perspective to the scene */
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d; /* Enables 3D transformations for children */
+}
+
+.card:hover .card-inner {
+  cursor: pointer;
+  transform: rotateY(180deg); /* Rotate the card on hover */
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back face when not visible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(174, 172, 172, 0.1);
+  background-color: #000000;
+}
+
+.card-back {
+  transform: rotateY(180deg); /* Rotate the back face so it's hidden initially */
+}
+
+h2,p
+{
+  color: rgb(182, 215, 133);
+}
+
+.members{
+    display: flex;
+}
+.team-mem,h3
+{
+    margin: 8px;
+    color: aliceblue;
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+h4,p{
+    text-align: center;
+    font-size: 10px;
+    margin: 7px;
+}
